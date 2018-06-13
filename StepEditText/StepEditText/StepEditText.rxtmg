@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="7.0">
+  <testsuiteentryhierarchy>
+    <flatlistofchildren>
+      <modulegroups
+      name="StepEditText"
+      id="67fc8af8-e200-4c25-9ca6-7e89bf764274"/>
+    </flatlistofchildren>
+    <childhierarchy>
+      <modulegroups
+      name="StepEditText"
+      id="67fc8af8-e200-4c25-9ca6-7e89bf764274"/>
+    </childhierarchy>
+  </testsuiteentryhierarchy>
+</modulegroupdoc>

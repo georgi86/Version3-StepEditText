@@ -1,0 +1,210 @@
+﻿<repository
+id="07de7142-d36d-4749-8ad6-3ad973fe92ed"
+name="StepEditTextRepository"
+rxversion="7.0">
+	<codegen
+	classname="StepEditTextRepository"
+	namespace="StepEditText">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="168c80e3-9cb1-4de1-bf24-253fdbb2cfb1"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a9305a84-2f66-455c-aef2-82851b726e91"
+		isrooted="True"
+		name="SnapXUntitled"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,nativewindow"
+			capname="unknown"
+			id="e13b0b88-e730-45ee-ab03-0e6da882202f"
+			name="TitleBar"
+			refimgid="3c233d51-1345-4e9e-add5-3e0967fd90e0"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/element[@controlid='94']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="b40832c7-c2a3-4189-a614-91eb7bf864c9"
+			name="MeasureText"
+			refimgid="fc9f8065-be18-42b2-8801-8e0060ea6d62"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']//text[@controlid='2394']
+			</item>
+			<item
+			addcaps="button,nativeitem,checkable"
+			capname="button"
+			id="3f82f465-9166-4d08-b2ca-ab8a31ebbab1"
+			name="SwitchToSensor"
+			refimgid="e5fe49e1-17bf-4f69-acb9-39e9ae6a19c3"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [Untitled]']/container[@controlid='59648']/form[@title='Untitled']/?/?/element[@controlid='59650']/element[@controlid='59648']/toolbar[@controlid='59392']/button[@commandid='40029']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [Untitled]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="1d3d4dac-e57f-41bf-b13f-e60774ff7c44"
+		isrooted="True"
+		name="SnapXRoutineOneMxy"
+		refpath="/form[@title='Snap-X - [RoutineOne.mxy]']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="73a09665-64e4-4ad6-b928-f4f0c38553b4"
+			name="ButtonOK"
+			refimgid="760b0acd-2ed6-4217-8bf2-d04eed4ef904"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [RoutineOne.mxy]']/container[@controlid='59648']/form[@title='RoutineOne.mxy']//button[@text='&amp;OK']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="9d0e283b-676b-4b7f-aa7a-1459e89edd8d"
+			name="Finish"
+			refimgid="e1f4c6fa-289d-4df9-ac54-d0688bccbbd6"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [RoutineOne.mxy]']/container[@controlid='59648']/form[@title='RoutineOne.mxy']//button[@text='Finish']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="44ddc625-f37f-4339-9426-ac85430607d8"
+			name="EndAtStepText"
+			refimgid="8138d752-72ba-44cf-a536-9421cd8ca356"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [RoutineOne.mxy]']/container[@controlid='59648']/form[@title='RoutineOne.mxy']//text[@controlid='1326']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="d0fbedc2-6dcf-42c0-837e-21bc2f235b07"
+			name="PromptText"
+			refimgid="b58a5203-cc63-4c08-9169-74ecf27d5b3e"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [RoutineOne.mxy]']/container[@controlid='59648']/form[@title='RoutineOne.mxy']//text[@controlid='1157']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="c9471d41-283f-4566-83a3-a88de2143e26"
+			name="StartAtStepText"
+			refimgid="f527621b-d356-43c7-b2a6-21790ff17896"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [RoutineOne.mxy]']/container[@controlid='59648']/form[@title='RoutineOne.mxy']//text[@controlid='1325']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="ba21d90f-f26d-406a-9357-434f561ab0f8"
+			name="TitleText"
+			refimgid="0023cc4d-bf0c-4689-a97e-eb35d6516786"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [RoutineOne.mxy]']/container[@controlid='59648']/form[@title='RoutineOne.mxy']//text[@controlid='1647']
+			</item>
+			<item
+			addcaps="container,nativewindow"
+			capname="container"
+			id="7b684f40-1f5b-42b0-b222-74127314d428"
+			name="WholeWindow"
+			refimgid="611fb86a-ada5-449f-ab4a-102ddce281ee"
+			searchtimeout="30000ms">
+				/form[@title='Snap-X - [RoutineOne.mxy]']/container[@controlid='59648']/form[@title='RoutineOne.mxy']//container[@controlid='59648']
+			</item>
+			<basepath>
+				/form[@title='Snap-X - [RoutineOne.mxy]']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="9181e4fa-376a-410d-91d2-2e6976cec0e0"
+		isrooted="True"
+		name="SNAPX"
+		refpath="/form[@title='SNAP-X']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="titlebar,accessible"
+			capname="titlebar"
+			id="40f55add-da64-4a49-91af-7ed7ed1798ba"
+			name="SNAPX"
+			refimgid="ea5f23b1-6ec8-4f61-bc88-5900c92e30c2"
+			refpath="/form[@title='SNAP-X']/titlebar[@accessiblerole='TitleBar']"
+			searchtimeout="30000ms">
+				/form[@title='SNAP-X']/titlebar[@accessiblerole='TitleBar']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="e497df9b-24cc-453b-be49-50e8eb3866d0"
+			name="SaveChangesText"
+			refimgid="9b5e45c6-b137-4e25-a2d4-909c61f88ae1"
+			refpath="/form[@title='SNAP-X']/text[@controlid='65535']"
+			searchtimeout="30000ms">
+				/form[@title='SNAP-X']/text[@controlid='65535']
+			</item>
+			<basepath>
+				/form[@title='SNAP-X']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAGqSURBVDhPjVM9SwNBEF2/EcUuaJLdvd1LqihY
+BBFtRPAfWKkgWNpZqKUpLARLCzEggk0gweQuKURtBCsFwcJGsRLsLAQFBRXju73R3MUoPnjs3bx5
+s7Ozd+wLTlxPukJX/+AGpX4jm0630SNjGcaaHaGvGhgNHa6O8n3JiMv1DLiF2IUj1BvZfRixgdmQ
+q1es7/67OnOEtVCWUpPVR4GxFojXISPR4foFG2TLItFP6Y1REno+ZESbnrEoZZRSfofL7TkkP9QK
+qMtiXA2S/AOFVKrdf4ikurFTsW7nnf1kssMkEA57e7twlGlwFwNfrXA9xPKcd2JAJ2GzXiePwZ6U
+NrrZRtFHrDnHshRJXttqM2gGD6qMNXmat0JfQuzZaNjImIKAQFfjs8jtAZK84pmghs7uSKohlICr
+orAB2p0N6h4xlx6SfaDqRygpbo2TxI7ZWCvOfRPUHZlIk+wDn+hauIh6Qmy5ErWlp9d3UeL2lDEG
+gaqjZrpC3QeT8X6L4qfBGOayQrbGcIWIlWLWiCv1hGFcDaOjxVoRlaPU/8ObBYz+P8LVOYUBxj4B
+q6oLt3Pkl98AAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="0eac791c-85ea-45fb-9336-0cf2b08d1f0b"
+		name="Snap_X">
+			Snap-X
+		</var>
+	</variables>
+</repository>
