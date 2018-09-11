@@ -1,0 +1,263 @@
+MACRO MacroStep
+VERSION 31.26
+BEGIN
+DEFAULT_TOLERANCES
+{
+    0 ;Use?
+    0.003
+    0 ;Use?
+    0.003
+    0 ;Use?
+    0.004
+    0 ;Use?
+    0.004
+    0 ;Use?
+    0.004
+    0 ;Use?
+    0.008
+    0 ;Use?
+    0.006
+    0 ;Use?
+    0.004
+    0 ;Use?
+    -0.004
+    0.004
+    0 ;Use?
+    -0.01
+    0.01
+    0 ;Use?
+    -0.05
+    0.05
+    0 ;Use?
+    -0.004
+    0.004
+    0 ;Use?
+    -0.004
+    0.004
+    0 ;Use?
+    -0.004
+    0.004
+}
+78 ;Command Id
+Initialize User Interface ;Name
+-1 ;Drawing Id
+{
+  78 ;NLS text id
+  7 ;Num children
+  59 ;Command Id
+  Change Measuring Units ;Name
+  -1 ;Drawing Id
+  {
+    1
+    1
+    5
+    5
+    4
+    4
+  }
+  74 ;Command Id
+  Change View Filter ;Name
+  1 ;Drawing Id
+  {
+    64767 ;New Filter
+    64767 ;Old Filter
+    74 ;NLS text id
+    0 ;Num children
+  }
+  80 ;Command Id
+  Change View Options ;Name
+  0 ;Drawing Id
+  {
+    0 ;Show Control Points?
+    1 ;Show Axes?
+    1 ;Highlight Objects?
+    1 ;Highlight Relations?
+    0 ;Show Hidden Objects?
+    0 ;Show Centers?
+    0 ;Show Ruler?
+    0 ;Show Scrollers?
+    1 ;OGPStyle?
+    0 ;Show Widges?
+    1 ;Show Markers?
+    1 ;Show InTolWhiskers?
+    1 ;Display_GDT_Result_only_after_DRF_Eval_Fit?
+    0 ;Show Control Points?
+    1 ;Show Axes?
+    1 ;Highlight Objects?
+    1 ;Highlight Relations?
+    0 ;Show Hidden Objects?
+    0 ;Show Centers?
+    0 ;Show Ruler?
+    0 ;Show Scrollers?
+    1 ;OGPStyle?
+    0 ;Show Widges?
+    1 ;Show Markers?
+    1 ;Show InTolWhiskers?
+    1 ;Display_GDT_Result_only_after_DRF_Eval_Fit?
+  }
+  88 ;Command Id
+  Change DXF Options ;Name
+  -1 ;Drawing Id
+  {
+    1 ;FindRelations
+    1 ;ImportBlocks
+    1 ;ImportLayers
+    0 ;ExportDimensions
+    0 ;ExportHiddenObjects
+    0 ;ExportBlocks
+    0 ;Units
+    14 ;Version
+    4 ;ExportFeatures
+    1 ;FindRelations
+    1 ;ImportBlocks
+    1 ;ImportLayers
+    0 ;ExportDimensions
+    0 ;ExportHiddenObjects
+    0 ;ExportBlocks
+    0 ;Units
+    14 ;Version
+    4 ;ExportFeatures
+  }
+  90 ;Command Id
+  Change Color Options ;Name
+  -1 ;Drawing Id
+  {
+    13158600 ;BackgroundColor
+    Custom ;BackgroundColorName
+    16711680 ;DragColor
+    Blue ;DragColorName
+    16711935 ;SelectionColor
+    Magenta ;SelectionColorName
+    16776960 ;HighlightColor
+    Cyan ;HighlightColorName
+    65535 ;ActivatedColor
+    Yellow ;ActivatedColorName
+    16763080 ;EnvelopesColor
+    Custom ;EnvelopesColorName
+    13172680 ;SoftGageGoDiameterColor
+    Custom ;SoftGageGoDiameterColorName
+    13158655 ;SoftGageNotGoDiameterColor
+    Custom ;SoftGageNotGoDiameterColorName
+    0.95 ;ScaleFit
+    128 ;PrintingTextScale
+    -100 ;MaxValue
+    9 ;ColorIdx
+    -75 ;MaxValue
+    11 ;ColorIdx
+    -15 ;MaxValue
+    10 ;ColorIdx
+    15 ;MaxValue
+    10 ;ColorIdx
+    75 ;MaxValue
+    10 ;ColorIdx
+    100 ;MaxValue
+    11 ;ColorIdx
+    3.40282e+08 ;MaxValue
+    9 ;ColorIdx
+    13158600 ;BackgroundColor
+    Custom ;BackgroundColorName
+    16711680 ;DragColor
+    Blue ;DragColorName
+    16711935 ;SelectionColor
+    Magenta ;SelectionColorName
+    16776960 ;HighlightColor
+    Cyan ;HighlightColorName
+    65535 ;ActivatedColor
+    Yellow ;ActivatedColorName
+    16763080 ;EnvelopesColor
+    Custom ;EnvelopesColorName
+    13172680 ;SoftGageGoDiameterColor
+    Custom ;SoftGageGoDiameterColorName
+    13158655 ;SoftGageNotGoDiameterColor
+    Custom ;SoftGageNotGoDiameterColorName
+    0.95 ;ScaleFit
+    128 ;PrintingTextScale
+    -100 ;MaxValue
+    9 ;ColorIdx
+    -75 ;MaxValue
+    11 ;ColorIdx
+    -15 ;MaxValue
+    10 ;ColorIdx
+    15 ;MaxValue
+    10 ;ColorIdx
+    75 ;MaxValue
+    10 ;ColorIdx
+    100 ;MaxValue
+    11 ;ColorIdx
+    3.40282e+08 ;MaxValue
+    9 ;ColorIdx
+  }
+  87 ;Command Id
+  Change Features Options ;Name
+  -1 ;Drawing Id
+  {
+    1 ;ASME
+    1 ;BindPoints
+    0 ;DatumEvalMethod
+    1 ;ASME
+    1 ;BindPoints
+    0 ;DatumEvalMethod
+  }
+  92 ;Command Id
+  Change Dimensions Options ;Name
+  -1 ;Drawing Id
+  {
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    4 ;ScrAuxSegExt
+    0.07874 ;RealAuxSegExt
+    2 ;ScrOffsett
+    0.03937 ;RealOffset
+    1 ;ScrTextOffset
+    0.03937 ;RealTextOffset
+    10 ;DoubleArrowLength
+    40 ;DefaultAuxPtDist
+    30 ;MultiMLStepDist
+    16 ;FontHeight
+    0 ;FontWidtht
+    0 ;FontEscapement
+    0 ;FontOrientation
+    0 ;FontBold
+    0 ;FontItalic
+    0 ;FontUnderline
+    0 ;FontStrikeOut
+    Arial ;FontFaceName
+    0 ;TextOverLine
+    0 ;ShowLabels
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    15 ;ScrSize
+    0.19685 ;RealSize
+    3 ;ArrowHeadType
+    4 ;ScrAuxSegExt
+    0.07874 ;RealAuxSegExt
+    2 ;ScrOffsett
+    0.03937 ;RealOffset
+    1 ;ScrTextOffset
+    0.03937 ;RealTextOffset
+    10 ;DoubleArrowLength
+    40 ;DefaultAuxPtDist
+    30 ;MultiMLStepDist
+    16 ;FontHeight
+    0 ;FontWidtht
+    0 ;FontEscapement
+    0 ;FontOrientation
+    0 ;FontBold
+    0 ;FontItalic
+    0 ;FontUnderline
+    0 ;FontStrikeOut
+    Arial ;FontFaceName
+    0 ;TextOverLine
+    0 ;ShowLabels
+  }
+  1 ;ASME
+  1 ;BindPoints
+  0 ;DatumEvalMethod
+}
+END
+

@@ -243,8 +243,7 @@ namespace StepEditText
             RepoItemInfo _prompttextInfo;
             RepoItemInfo _startatsteptextInfo;
             RepoItemInfo _titletextInfo;
-            RepoItemInfo _wholewindowInfo;
-
+           
             /// <summary>
             /// Creates a new SnapXRoutineOneMxy  folder.
             /// </summary>
@@ -257,7 +256,7 @@ namespace StepEditText
                 _prompttextInfo = new RepoItemInfo(this, "PromptText", "container[@controlid='59648']/form[@title='RoutineOne.mxy']//text[@controlid='1157']", 30000, null, "d0fbedc2-6dcf-42c0-837e-21bc2f235b07");
                 _startatsteptextInfo = new RepoItemInfo(this, "StartAtStepText", "container[@controlid='59648']/form[@title='RoutineOne.mxy']//text[@controlid='1325']", 30000, null, "c9471d41-283f-4566-83a3-a88de2143e26");
                 _titletextInfo = new RepoItemInfo(this, "TitleText", "container[@controlid='59648']/form[@title='RoutineOne.mxy']//text[@controlid='1647']", 30000, null, "ba21d90f-f26d-406a-9357-434f561ab0f8");
-                _wholewindowInfo = new RepoItemInfo(this, "WholeWindow", "container[@controlid='59648']/form[@title='RoutineOne.mxy']//container[@controlid='59648']", 30000, null, "7b684f40-1f5b-42b0-b222-74127314d428");
+                
             }
 
             /// <summary>
@@ -428,29 +427,7 @@ namespace StepEditText
                 }
             }
 
-            /// <summary>
-            /// The WholeWindow item.
-            /// </summary>
-            [RepositoryItem("7b684f40-1f5b-42b0-b222-74127314d428")]
-            public virtual Ranorex.Container WholeWindow
-            {
-                get
-                {
-                    return _wholewindowInfo.CreateAdapter<Ranorex.Container>(true);
-                }
-            }
-
-            /// <summary>
-            /// The WholeWindow item info.
-            /// </summary>
-            [RepositoryItemInfo("7b684f40-1f5b-42b0-b222-74127314d428")]
-            public virtual RepoItemInfo WholeWindowInfo
-            {
-                get
-                {
-                    return _wholewindowInfo;
-                }
-            }
+            
         }
 
         /// <summary>

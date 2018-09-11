@@ -116,8 +116,8 @@ namespace StepEditText
             Report.Log(ReportLevel.Info, "Delay", "Waiting for 2s.", new RecordItemIndex(6));
             Delay.Duration(2000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationStepEditText\\Routine\\RoutineOne.mxy'.", new RecordItemIndex(7));
-            Keyboard.Press("D:\\Joro\\GIT_Automations\\VERSION 3\\AutomationStepEditText\\Routine\\RoutineOne.mxy");
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationStepEditText\\Routine\\RoutineOne.mxy'.", new RecordItemIndex(7));
+            Keyboard.Press("C:\\JORO\\AUTOMATIONS\\GIT_Automations\\VERSION 3\\AutomationStepEditText\\Routine\\RoutineOne.mxy");
             Delay.Milliseconds(0);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Delete}'.", new RecordItemIndex(8));
@@ -144,98 +144,141 @@ namespace StepEditText
             Keyboard.Press("S");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.TitleText' at Center.", repo.SnapXRoutineOneMxy.TitleTextInfo, new RecordItemIndex(14));
-            repo.SnapXRoutineOneMxy.TitleText.Click();
-            Delay.Milliseconds(200);
+            
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.TitleText' at Center.", repo.SnapXRoutineOneMxy.TitleTextInfo, new RecordItemIndex(14));
+                repo.SnapXRoutineOneMxy.TitleText.MoveTo();
+                Delay.Milliseconds(200);
 
-            string strTitleText = repo.SnapXRoutineOneMxy.TitleText.TextValue;
-            string strHardcodedTitleText = " Step Edit Routine";
-            UtilityRun.InspectText(strTitleText, strHardcodedTitleText);
-            Delay.Milliseconds(200);
+                string strTitleText = repo.SnapXRoutineOneMxy.TitleText.TextValue;
+                string strHardcodedTitleText = " Step Edit Routine";
+                UtilityRun.InspectText(strTitleText, strHardcodedTitleText);
+                Delay.Milliseconds(200);
+            }
+            catch (Exception ex)
+            {
+               
+            }
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.PromptText' at Center.", repo.SnapXRoutineOneMxy.PromptTextInfo, new RecordItemIndex(15));
-            repo.SnapXRoutineOneMxy.PromptText.Click();
-            Delay.Milliseconds(200);
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.PromptText' at Center.", repo.SnapXRoutineOneMxy.PromptTextInfo, new RecordItemIndex(15));
+                repo.SnapXRoutineOneMxy.PromptText.MoveTo();
+                Delay.Milliseconds(200);
 
-            string strPromptText = repo.SnapXRoutineOneMxy.PromptText.TextValue;
-            string strHardcodedPromptText = "Set XYZ origin location and skew\nalignment, then press OK to step edit the routine.";
-            UtilityRun.InspectText(strPromptText, strHardcodedPromptText);
-            Delay.Milliseconds(200);
+                string strPromptText = repo.SnapXRoutineOneMxy.PromptText.TextValue;
+                string strHardcodedPromptText = "Set XYZ origin location and skew\nalignment, then press OK to step\nedit the routine.";
+                UtilityRun.InspectText(strPromptText, strHardcodedPromptText);
+                Delay.Milliseconds(200);
+            }
+            catch (Exception ex)
+            {
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.StartAtStepText' at Center.", repo.SnapXRoutineOneMxy.StartAtStepTextInfo, new RecordItemIndex(16));
-            repo.SnapXRoutineOneMxy.StartAtStepText.Click();
-            Delay.Milliseconds(200);
+            }
 
-            string strStartText = repo.SnapXRoutineOneMxy.StartAtStepText.TextValue;
-            string strHardcodedStartText = "Start at Step";
-            UtilityRun.InspectText(strStartText, strHardcodedStartText);
-            Delay.Milliseconds(200);
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.StartAtStepText' at Center.", repo.SnapXRoutineOneMxy.StartAtStepTextInfo, new RecordItemIndex(16));
+                repo.SnapXRoutineOneMxy.StartAtStepText.MoveTo();
+                Delay.Milliseconds(200);
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.EndAtStepText' at Center.", repo.SnapXRoutineOneMxy.EndAtStepTextInfo, new RecordItemIndex(17));
-            repo.SnapXRoutineOneMxy.EndAtStepText.Click();
-            Delay.Milliseconds(200);
+                string strStartText = repo.SnapXRoutineOneMxy.StartAtStepText.TextValue;
+                string strHardcodedStartText = "Start at Step";
+                UtilityRun.InspectText(strStartText, strHardcodedStartText);
+                Delay.Milliseconds(200);
+            }
+            catch (Exception ex)
+            {
 
-            string strEndText = repo.SnapXRoutineOneMxy.EndAtStepText.TextValue;
-            string strHardcodedEndText = "End at Step";
-            UtilityRun.InspectText(strEndText, strHardcodedEndText);
-            Delay.Milliseconds(200);
+            }
 
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.EndAtStepText' at Center.", repo.SnapXRoutineOneMxy.EndAtStepTextInfo, new RecordItemIndex(17));
+                repo.SnapXRoutineOneMxy.EndAtStepText.MoveTo();
+                Delay.Milliseconds(200);
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.WholeWindow' at Center.", repo.SnapXRoutineOneMxy.WholeWindowInfo, new RecordItemIndex(18));
-            repo.SnapXRoutineOneMxy.WholeWindow.Click();
-            Delay.Milliseconds(200);
+                string strEndText = repo.SnapXRoutineOneMxy.EndAtStepText.TextValue;
+                string strHardcodedEndText = "End at Step";
+                UtilityRun.InspectText(strEndText, strHardcodedEndText);
+                Delay.Milliseconds(200);
+            }
+            catch (Exception ex)
+            {
+
+            }                                   
             
             Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.ButtonOK' at Center.", repo.SnapXRoutineOneMxy.ButtonOKInfo, new RecordItemIndex(19));
             repo.SnapXRoutineOneMxy.ButtonOK.Click();
             Delay.Milliseconds(200);
-            
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 3s.", new RecordItemIndex(20));
-            Delay.Duration(3000, false);
+
+            Thread.Sleep(4000);
             
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'o'.", new RecordItemIndex(21));
             Keyboard.Press("o");
             Delay.Milliseconds(0);
+
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.Finish' at Center.", repo.SnapXRoutineOneMxy.FinishInfo, new RecordItemIndex(22));
+                repo.SnapXRoutineOneMxy.Finish.Click();
+                Delay.Milliseconds(200);
+            }
+            catch (Exception ex)
+            {
+
+            }
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SnapXRoutineOneMxy.Finish' at Center.", repo.SnapXRoutineOneMxy.FinishInfo, new RecordItemIndex(22));
-            repo.SnapXRoutineOneMxy.Finish.Click();
-            Delay.Milliseconds(200);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SNAPX.SNAPX' at 28;6.", repo.SNAPX.SNAPXInfo, new RecordItemIndex(23));
-            repo.SNAPX.SNAPX.Click("28;6");
+            Keyboard.Press("{LMenu}");
             Delay.Milliseconds(200);
 
-            string strNewPromptTitle = repo.SNAPX.SNAPX.Text;
-            string strHardcodedNewPromptTitle = "SNAP-X";
-            UtilityRun.InspectText(strNewPromptTitle, strHardcodedNewPromptTitle);
+            Keyboard.Press("f");
             Delay.Milliseconds(200);
 
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SNAPX.SaveChangesText' at 92;7.", repo.SNAPX.SaveChangesTextInfo, new RecordItemIndex(24));
-            repo.SNAPX.SaveChangesText.Click("92;7");
+            Keyboard.Press("n");
             Delay.Milliseconds(200);
 
-            string strNewPromptText = repo.SNAPX.SaveChangesText.TextValue;
-            string strHardcodedNewPromptText = "Save changes to RoutineOne.mxy?";
-            UtilityRun.InspectText(strNewPromptText, strHardcodedNewPromptText);
-            Delay.Milliseconds(200);
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SNAPX.SNAPX' at 28;6.", repo.SNAPX.SNAPXInfo, new RecordItemIndex(23));
+                repo.SNAPX.SNAPX.MoveTo("28;6");
+                Delay.Milliseconds(200);
+
+                string strNewPromptTitle = repo.SNAPX.SNAPX.Text;
+                string strHardcodedNewPromptTitle = "SNAP-X";
+                UtilityRun.InspectText(strNewPromptTitle, strHardcodedNewPromptTitle);
+                Delay.Milliseconds(200);
+            }
+            catch (Exception ex)
+            {
+
+            }
+
+            try
+            {
+                Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'SNAPX.SaveChangesText' at 92;7.", repo.SNAPX.SaveChangesTextInfo, new RecordItemIndex(24));
+                repo.SNAPX.SaveChangesText.MoveTo("92;7");
+                Delay.Milliseconds(200);
+
+                string strNewPromptText = repo.SNAPX.SaveChangesText.TextValue;
+                string strHardcodedNewPromptText = "Save changes to RoutineOne.mxy?";
+                UtilityRun.InspectText(strNewPromptText, strHardcodedNewPromptText);
+                Delay.Milliseconds(200);
+            }
+            catch (Exception ex)
+            {
+
+            }            
 
             Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'n'.", new RecordItemIndex(25));
             Keyboard.Press("n");
             Delay.Milliseconds(0);
+
+            Thread.Sleep(5000);
             
-            Report.Log(ReportLevel.Info, "Delay", "Waiting for 4s.", new RecordItemIndex(26));
-            Delay.Duration(4000, false);
             
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{LMenu}'.", new RecordItemIndex(27));
-            Keyboard.Press("{LMenu}");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'F'.", new RecordItemIndex(28));
-            Keyboard.Press("F");
-            Delay.Milliseconds(0);
-            
-            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'N'.", new RecordItemIndex(29));
-            Keyboard.Press("N");
-            Delay.Milliseconds(0);
             
         }
 
